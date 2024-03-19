@@ -28,8 +28,11 @@ img{
 }
 form{
     display:flex;
+    justify-content: space-between;
+    flex-flow:wrap;
 }
 .input{
     display:flex;
     flex-direction: column;
+    padding: 16px;
 }
