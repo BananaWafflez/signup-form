@@ -12,7 +12,7 @@ img{
     flex-direction: column;
     justify-content: center;
     
-    background: rgb(212, 210, 210);
+    background: rgb(238, 236, 236);
     
 }
 #know{
@@ -20,6 +20,7 @@ img{
 }
 #signupsheet{
     background-color: white;
+    box-shadow: 0 4px 8px gray;
     
 }
 .signup{
@@ -30,9 +31,16 @@ form{
     display:flex;
     justify-content: space-between;
     flex-flow:wrap;
+    max-width: 600px;
 }
 .input{
     display:flex;
     flex-direction: column;
-    padding: 16px;
+    padding: 16px 16px 16px 0px;
+}
+input[type=text]{
+    padding:4px 16px;
+}
+label{
+    font-size:24px;
 }
