@@ -5,8 +5,8 @@ body{
     font-family: "Arial";
 }
 img{
-    width:500px;
-    height: 100vh
+    width:700px;
+    min-height: 100vh
 }
 .signupside{
     margin:0;
@@ -66,6 +66,8 @@ input[type=submit]
     margin-top:16px;
     margin-left:24px;
     box-shadow: 0 4px 8px gray;
+    font-size: 18px;
+    font-weight: bold;
     
 }
 input:focus{
@@ -78,4 +80,10 @@ label{
     font-weight: bold;
     color:rgb(98,105,113);
     font-size: 16px;
+}
+#login{
+    color: green;
+}
+.odin{
+    position:absolute;
 }
